@@ -28,7 +28,6 @@ name: hulu-project
 
 # clone:
 #   disable: true
-
 steps:
 # - name: clone
 #   image: alpine/git
