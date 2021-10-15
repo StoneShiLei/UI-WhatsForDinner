@@ -2,6 +2,7 @@ import axios from 'axios';
 import { ADD_RTOKEN, ADD_USERINFO, REMOVE_USERAUTH, store } from '../models/store';
 import { ADD_TOKENINFO } from '../models/store';
 
+
 const service = axios.create({
     // baseURL: "/api",
     baseURL: "https://api.hafuhafu.cn",
