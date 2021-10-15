@@ -13,7 +13,6 @@ steps:
   # - git checkout $DRONE_COMMIT
 
 - name: docker
-  depends_on: [clone]
   image: plugins/docker
   settings:
     mirror: https://jnyis2wm.mirror.aliyuncs.com
@@ -28,7 +27,6 @@ steps:
       - ${DRONE_COMMIT}
 
 - name: dron8s
-  depends_on: [docker]
   image: bh90210/dron8s:latest
   settings:
     yaml: ./deploy.yaml
