@@ -34,7 +34,7 @@ steps:
     # variables. Must be lowercase, Usage: {{.service_name}}
     image_tag: ${DRONE_COMMIT}
     kubeconfig:
-        from_secret: kube
+        from_secret: kubeconfig
 
 ---
 kind: secret

@@ -16,7 +16,7 @@ spec:
         app: ui-wfd
     spec:
       containers:
-        - name: ui-whatsfordinner
+        - name: whatsfordinner2
           image: registry-vpc.cn-shanghai.aliyuncs.com/hulu0811/whatsfordinner:{{.image_tag}}
           ports:
             - containerPort: 80
