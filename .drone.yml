@@ -21,7 +21,7 @@ steps:
     password:
       from_secret: password
     repo: registry-vpc.cn-shanghai.aliyuncs.com/hulu0811/whatsfordinner
-    registry: registry.cn-shanghai.aliyuncs.com
+    registry: registry-vpc.cn-shanghai.aliyuncs.com
     tags:
       - latest
       - ${DRONE_COMMIT}
