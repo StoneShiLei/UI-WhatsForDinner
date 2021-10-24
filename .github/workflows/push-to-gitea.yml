@@ -11,7 +11,7 @@ jobs:
         with:
           originalURL: https://github.com/StoneShiLei/UI-WhatsForDinner.git
           originalBranch: master
-          mirrorURL: http://gitea.hafuhafu.cn/StoneShiLei/UI-WhatsForDinner.git
+          mirrorURL: https://gitea.hafuhafu.cn/StoneShiLei/UI-WhatsForDinner.git
           mirrorBranch: master
           verbose: true
           force: true
